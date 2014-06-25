@@ -13,3 +13,9 @@ Example:
         "hex": "#B57EDC",
         "hue": "blue-magenta"
     }
+
+
+
+
+
+Thanks to: http://www.workwithcolor.com/red-color-hue-range-01.htm
