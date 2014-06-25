@@ -1,6 +1,6 @@
 {
   "name": "color_dictionary",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "authors": [
     "Jasson Cascante <jasson.cascante@edify.cr>"
   ],
@@ -15,5 +15,10 @@
     "bower_components",
     "test",
     "tests"
+  ],
+  "homepage": "https://github.com/yeco/color_dictionary",
+  "keywords": [
+    "colors",
+    "dictionary"
   ]
 }

@@ -33,12 +33,8 @@ module.exports = function(grunt) {
 
         concat: {
             options: {
-                /* process: function(src, filepath) {
-                    return src.replace(/,\s*$/, "");
-                }*/
-
                 banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-                    '<%= grunt.template.today("yyyy-mm-dd") %> */',
+                    '<%= grunt.template.today("yyyy-mm-dd") %> */\n',
             },
             files: {
                 src: ['<%= config.src %>/intro.js', '<%= config.src %>/colors/*.js', '<%= config.src %>/outro.js'],
