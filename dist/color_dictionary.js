@@ -1,4 +1,4 @@
-/*! color_dictionary - v0.0.10 - 2014-06-26 */
+/*! color_dictionary - v0.0.11 - 2014-06-26 */
 var color_dictionary = [
 {
     name: "bright lavender",
@@ -1352,12 +1352,12 @@ var color_dictionary = [
     hue: "yellow"
 },
 ];
-var hexLookup = [];
+var hexLookup = {};
 for (var i = color_dictionary.length - 1; i >= 0; i--) {
     hexLookup[color_dictionary[i].hex] = color_dictionary[i];
 };
 
-var nameLookup = [];
+var nameLookup = {};
 for (var i = color_dictionary.length - 1; i >= 0; i--) {
     nameLookup[color_dictionary[i].name] = color_dictionary[i];
 };
