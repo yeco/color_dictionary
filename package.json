@@ -1,6 +1,6 @@
 {
     "name": "color_dictionary",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "description": "",
     "main": "dist/color_dictionary.js",
     "dependencies": {
