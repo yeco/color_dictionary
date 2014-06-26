@@ -37,7 +37,7 @@ module.exports = function(grunt) {
                     '<%= grunt.template.today("yyyy-mm-dd") %> */\n',
             },
             files: {
-                src: ['<%= config.src %>/intro.js', '<%= config.src %>/colors/*.js', '<%= config.src %>/outro.js'],
+                src: ['<%= config.src %>/intro.js', '<%= config.src %>/colors/*.js', '<%= config.src %>/outro.js', '<%= config.src %>/lookups.js'],
                 dest: '<%= config.dist %>/color_dictionary.js'
             }
         },
@@ -75,7 +75,8 @@ module.exports = function(grunt) {
         'clean:dist',
         'bump-only',
         'concat',
-        'uglify'
+        'uglify',
+        'bump-commit',
     ]);
     grunt.registerTask('default', [
         'newer:jshint',
