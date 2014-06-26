@@ -1,4 +1,4 @@
-/*! color_dictionary - v0.0.11 - 2014-06-26 */
+/*! color_dictionary - v0.0.12 - 2014-06-26 */
 var color_dictionary = [
 {
     name: "bright lavender",
