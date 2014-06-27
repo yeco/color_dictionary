@@ -70,4 +70,64 @@
     hsla: [344, 93, 19, 17],
     hex: "#560319",
     hue: "pink"
+}, {
+    hex: "#FFC5BB",
+    rgb: [252, 91, 11],
+    hue: "pink",
+    name: "your pink",
+    hsl: [19, 97, 51]
+}, {
+    hex: "#FFC0CB",
+    rgb: [252, 12, 11],
+    hue: "pink",
+    name: "pink",
+    hsl: [0, 97, 51]
+}, {
+    hex: "#FFB7D5",
+    rgb: [251, 125, 5],
+    hue: "pink",
+    name: "cotton candy",
+    hsl: [29, 96, 50]
+}, {
+    hex: "#FFB6C1",
+    rgb: [251, 108, 1],
+    hue: "pink",
+    name: "light pink",
+    hsl: [25, 99, 49]
+}, {
+    hex: "#FFA6C9",
+    rgb: [250, 108, 9],
+    hue: "pink",
+    name: "carnation pink",
+    hsl: [24, 96, 50]
+}, {
+    hex: "#FF9889",
+    rgb: [249, 136, 9],
+    hue: "pink",
+    name: "mona lisa",
+    hsl: [31, 95, 50]
+}, {
+    hex: "#FF77FF",
+    rgb: [247, 127, 15],
+    hue: "pink",
+    name: "fuchsia pink",
+    hsl: [28, 93, 51]
+}, {
+    hex: "#FF6FFF",
+    rgb: [246, 255, 15],
+    hue: "pink",
+    name: "ultra pink",
+    hsl: [62, 100, 52]
+}, {
+    hex: "#FF69B4",
+    rgb: [246, 155, 4],
+    hue: "pink",
+    name: "hot pink",
+    hsl: [37, 96, 49]
+}, {
+    hex: "#FF66FF",
+    rgb: [246, 111, 15],
+    hue: "pink",
+    name: "pink flamingo",
+    hsl: [24, 92, 51]
 },
